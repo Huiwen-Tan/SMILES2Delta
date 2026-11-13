@@ -1,0 +1,13 @@
+name: s2delta
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  # Scientific computing
+  - numpy
+  - pandas
+  - matplotlib
+  - scikit-learn
+  # Cheminformatics
+  - rdkit
